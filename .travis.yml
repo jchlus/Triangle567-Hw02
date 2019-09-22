@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Sep 22 13:35:20 2019
+
+@author: jchlu
+"""
+
+language: python
+python:
+ - "3.5"
+
+# command to run tests
+script:
+ - python -m unittest TestTriangle
